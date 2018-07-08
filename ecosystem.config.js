@@ -1,4 +1,4 @@
-module.exports= {
+module.exports = {
 	apps: [{
 		name: 'tutorial-2',
 		script: '~/server/current/index.js'
@@ -11,7 +11,7 @@ module.exports= {
 			ref: 'origin/master',
 			repo: 'git@github.com:atniomn/node-tutorial.git',
 			path: '/home/ubuntu/server',
-			'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
+			post-deploy: 'npm install && pm2 startOrRestart ecosystem.config.js'
 		}
 	}
 }
