@@ -1,7 +1,7 @@
 {
   "name": "node_tutorial",
   "version": "1.0.0",
-  "description": "",
+  "description": "Tutorial to setup Node.js with database",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {},
